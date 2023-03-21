@@ -4,7 +4,7 @@ export interface IProduct {
   amount: string;
 }
 
-export interface Iuser {
+export interface IUser {
   id: number;
   username: string;
   vocation: string;
@@ -12,7 +12,12 @@ export interface Iuser {
   password: string;
 }
 
-export interface Iorder {
+export interface IOrder {
   id: number;
   userId: number;
+}
+
+export interface ILogin {
+  username: string;
+  password: string;
 }
